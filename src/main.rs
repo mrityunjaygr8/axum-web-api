@@ -1,6 +1,7 @@
 use std::process::exit;
 
 use figment::{Figment, providers::Env};
+use migration::{Migrator, MigratorTrait};
 use sea_orm::{ConnectOptions, Database};
 use serde::Deserialize;
 
@@ -43,6 +44,8 @@ async fn main() {
     let db = Database::connect(opts)
         .await
         .expect("Cannot connect to specified database");
+
+    let _ = Migrator::up(&db, None).await;
 
     let _ = db.ping().await.is_ok();
     let _ = db.close().await;
