@@ -3,12 +3,14 @@ name = "axum-web-api"
 version = "0.1.0"
 edition = "2024"
 
+
 [workspace]
 members = [".", "migration"]
 
 [dependencies]
 dotenvy = "0.15.7"
 figment = { version = "0.10", features = ["toml", "env"] }
+migration = {path = "./migration"}
 sea-orm = {version = "2.0.0-rc", features = ["sqlx-postgres", "runtime-tokio", "macros", "debug-print"]}
 serde = "1.0.228"
 tokio = { version = "1.49.0", features = ["full"] }
