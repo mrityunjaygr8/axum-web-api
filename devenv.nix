@@ -9,7 +9,7 @@
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = [pkgs.git];
+  packages = with pkgs; [sea-orm-cli];
 
   # https://devenv.sh/languages/
   languages.rust.enable = true;
