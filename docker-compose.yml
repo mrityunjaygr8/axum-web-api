@@ -6,9 +6,10 @@ services:
     restart: always
     # set shared memory limit when using docker compose
     shm_size: 128mb
+    user: "1000"
     ports:
       - 5432:5432
     volumes:
-      - ./data/:/var/lib/postgresql/
+      - ./data/:/var/lib/postgresql/data/
     env_file:
       - .env.docker
