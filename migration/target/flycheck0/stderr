@@ -1,0 +1,358 @@
+   0.135257176s  INFO prepare_target{force=false package_id=migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration) target="migration"}: cargo::core::compiler::fingerprint: fingerprint error for migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration)/Check { test: false }/TargetInner { ..: lib_target("migration", ["lib"], "/home/mgr8/stuff/rust/axum-web-api/migration/src/lib.rs", Edition2021) }
+   0.135285781s  INFO prepare_target{force=false package_id=migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration) target="migration"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/migration-b7aed5ec873a6cbc/lib-migration`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::build_runner::BuildRunner::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: cargo::cli::Exec::exec
+  11: cargo::cli::main
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace
+  14: std::rt::lang_start::{{closure}}
+  15: std::rt::lang_start_internal
+  16: main
+  17: __libc_start_call_main
+  18: __libc_start_main_alias_2
+  19: _start
+   0.141218087s  INFO prepare_target{force=false package_id=sea-orm-migration v1.1.19 target="sea_orm_migration"}: cargo::core::compiler::fingerprint: fingerprint error for sea-orm-migration v1.1.19/Check { test: false }/TargetInner { ..: lib_target("sea_orm_migration", ["lib"], "/home/mgr8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-orm-migration-1.1.19/src/lib.rs", Edition2021) }
+   0.141234328s  INFO prepare_target{force=false package_id=sea-orm-migration v1.1.19 target="sea_orm_migration"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/sea-orm-migration-44820ac2f72830e9/lib-sea_orm_migration`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::build_runner::BuildRunner::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: cargo::cli::Exec::exec
+  12: cargo::cli::main
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace
+  15: std::rt::lang_start::{{closure}}
+  16: std::rt::lang_start_internal
+  17: main
+  18: __libc_start_call_main
+  19: __libc_start_main_alias_2
+  20: _start
+   0.142828492s  INFO prepare_target{force=false package_id=sea-orm v1.1.19 target="sea_orm"}: cargo::core::compiler::fingerprint: fingerprint error for sea-orm v1.1.19/Check { test: false }/TargetInner { ..: lib_target("sea_orm", ["lib"], "/home/mgr8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-orm-1.1.19/src/lib.rs", Edition2021) }
+   0.142840785s  INFO prepare_target{force=false package_id=sea-orm v1.1.19 target="sea_orm"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/sea-orm-503c695fe809a5c1/lib-sea_orm`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::build_runner::BuildRunner::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: cargo::cli::Exec::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace
+  16: std::rt::lang_start::{{closure}}
+  17: std::rt::lang_start_internal
+  18: main
+  19: __libc_start_call_main
+  20: __libc_start_main_alias_2
+  21: _start
+   0.145086072s  INFO prepare_target{force=false package_id=sea-query-binder v0.7.0 target="sea_query_binder"}: cargo::core::compiler::fingerprint: fingerprint error for sea-query-binder v0.7.0/Check { test: false }/TargetInner { ..: lib_target("sea_query_binder", ["lib"], "/home/mgr8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-binder-0.7.0/src/lib.rs", Edition2021) }
+   0.145097384s  INFO prepare_target{force=false package_id=sea-query-binder v0.7.0 target="sea_query_binder"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/sea-query-binder-29f0762c03d8ae22/lib-sea_query_binder`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::build_runner::BuildRunner::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: cargo::cli::Exec::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace
+  17: std::rt::lang_start::{{closure}}
+  18: std::rt::lang_start_internal
+  19: main
+  20: __libc_start_call_main
+  21: __libc_start_main_alias_2
+  22: _start
+   0.145512246s  INFO prepare_target{force=false package_id=sqlx v0.8.6 target="sqlx"}: cargo::core::compiler::fingerprint: fingerprint error for sqlx v0.8.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sqlx", ["lib"], "/home/mgr8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.8.6/src/lib.rs", Edition2021) }
+   0.145519890s  INFO prepare_target{force=false package_id=sqlx v0.8.6 target="sqlx"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/sqlx-7c9db5b05c4007a3/lib-sqlx`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::build_runner::BuildRunner::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: cargo::cli::Exec::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace
+  18: std::rt::lang_start::{{closure}}
+  19: std::rt::lang_start_internal
+  20: main
+  21: __libc_start_call_main
+  22: __libc_start_main_alias_2
+  23: _start
+   0.146015496s  INFO prepare_target{force=false package_id=sqlx-core v0.8.6 target="sqlx_core"}: cargo::core::compiler::fingerprint: fingerprint error for sqlx-core v0.8.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sqlx_core", ["lib"], "/home/mgr8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-core-0.8.6/src/lib.rs", Edition2021) }
+   0.146025686s  INFO prepare_target{force=false package_id=sqlx-core v0.8.6 target="sqlx_core"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/sqlx-core-e5b7bc3af22b5e8c/lib-sqlx_core`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::build_runner::BuildRunner::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: cargo::cli::Exec::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace
+  19: std::rt::lang_start::{{closure}}
+  20: std::rt::lang_start_internal
+  21: main
+  22: __libc_start_call_main
+  23: __libc_start_main_alias_2
+  24: _start
+   0.150398284s  INFO prepare_target{force=false package_id=sqlx-postgres v0.8.6 target="sqlx_postgres"}: cargo::core::compiler::fingerprint: fingerprint error for sqlx-postgres v0.8.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sqlx_postgres", ["lib"], "/home/mgr8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-postgres-0.8.6/src/lib.rs", Edition2021) }
+   0.150413553s  INFO prepare_target{force=false package_id=sqlx-postgres v0.8.6 target="sqlx_postgres"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/sqlx-postgres-b772a73b6e5b5329/lib-sqlx_postgres`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::build_runner::BuildRunner::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: cargo::cli::Exec::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace
+  19: std::rt::lang_start::{{closure}}
+  20: std::rt::lang_start_internal
+  21: main
+  22: __libc_start_call_main
+  23: __libc_start_main_alias_2
+  24: _start
+   0.152152884s  INFO prepare_target{force=false package_id=sea-orm-cli v1.1.19 target="sea_orm_cli"}: cargo::core::compiler::fingerprint: fingerprint error for sea-orm-cli v1.1.19/Check { test: false }/TargetInner { ..: lib_target("sea_orm_cli", ["lib"], "/home/mgr8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-orm-cli-1.1.19/src/lib.rs", Edition2021) }
+   0.152162893s  INFO prepare_target{force=false package_id=sea-orm-cli v1.1.19 target="sea_orm_cli"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/sea-orm-cli-96de1b63b1297779/lib-sea_orm_cli`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::build_runner::BuildRunner::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: cargo::cli::Exec::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace
+  16: std::rt::lang_start::{{closure}}
+  17: std::rt::lang_start_internal
+  18: main
+  19: __libc_start_call_main
+  20: __libc_start_main_alias_2
+  21: _start
+   0.153116223s  INFO prepare_target{force=false package_id=sea-schema v0.16.2 target="sea_schema"}: cargo::core::compiler::fingerprint: fingerprint error for sea-schema v0.16.2/Check { test: false }/TargetInner { ..: lib_target("sea_schema", ["lib"], "/home/mgr8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-schema-0.16.2/src/lib.rs", Edition2021) }
+   0.153126864s  INFO prepare_target{force=false package_id=sea-schema v0.16.2 target="sea_schema"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/sea-schema-c70f08b4b24b983d/lib-sea_schema`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::build_runner::BuildRunner::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: cargo::cli::Exec::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace
+  16: std::rt::lang_start::{{closure}}
+  17: std::rt::lang_start_internal
+  18: main
+  19: __libc_start_call_main
+  20: __libc_start_main_alias_2
+  21: _start
+   0.153731568s  INFO prepare_target{force=false package_id=migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration) target="migration"}: cargo::core::compiler::fingerprint: fingerprint error for migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration)/Check { test: true }/TargetInner { ..: lib_target("migration", ["lib"], "/home/mgr8/stuff/rust/axum-web-api/migration/src/lib.rs", Edition2021) }
+   0.153740675s  INFO prepare_target{force=false package_id=migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration) target="migration"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/migration-a7a6c8026c0e02de/test-lib-migration`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::build_runner::BuildRunner::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: cargo::cli::Exec::exec
+  11: cargo::cli::main
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace
+  14: std::rt::lang_start::{{closure}}
+  15: std::rt::lang_start_internal
+  16: main
+  17: __libc_start_call_main
+  18: __libc_start_main_alias_2
+  19: _start
+   0.154374225s  INFO prepare_target{force=false package_id=migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration) target="migration"}: cargo::core::compiler::fingerprint: fingerprint error for migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration)/Check { test: false }/TargetInner { name: "migration", doc: true, ..: with_path("/home/mgr8/stuff/rust/axum-web-api/migration/src/main.rs", Edition2021) }
+   0.154383463s  INFO prepare_target{force=false package_id=migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration) target="migration"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/migration-e8938ae93bd1d778/bin-migration`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::build_runner::BuildRunner::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: cargo::cli::Exec::exec
+  11: cargo::cli::main
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace
+  14: std::rt::lang_start::{{closure}}
+  15: std::rt::lang_start_internal
+  16: main
+  17: __libc_start_call_main
+  18: __libc_start_main_alias_2
+  19: _start
+   0.154974271s  INFO prepare_target{force=false package_id=migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration) target="migration"}: cargo::core::compiler::fingerprint: fingerprint error for migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration)/Check { test: true }/TargetInner { name: "migration", doc: true, ..: with_path("/home/mgr8/stuff/rust/axum-web-api/migration/src/main.rs", Edition2021) }
+   0.154982717s  INFO prepare_target{force=false package_id=migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration) target="migration"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/mgr8/stuff/rust/axum-web-api/migration/target/debug/.fingerprint/migration-6a53ed6777bb2d83/test-bin-migration`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <E as anyhow::context::ext::StdError>::ext_context
+   1: cargo_util::paths::read
+   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::build_runner::BuildRunner::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: cargo::cli::Exec::exec
+  11: cargo::cli::main
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace
+  14: std::rt::lang_start::{{closure}}
+  15: std::rt::lang_start_internal
+  16: main
+  17: __libc_start_call_main
+  18: __libc_start_main_alias_2
+  19: _start
+    Checking sqlx-core v0.8.6
+    Checking sea-orm-cli v1.1.19
+    Checking sqlx-postgres v0.8.6
+    Checking sqlx v0.8.6
+    Checking sea-query-binder v0.7.0
+    Checking sea-orm v1.1.19
+    Checking sea-schema v0.16.2
+    Checking sea-orm-migration v1.1.19
+    Checking migration v0.1.0 (/home/mgr8/stuff/rust/axum-web-api/migration)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 8.65s
